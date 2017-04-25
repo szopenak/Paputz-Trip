@@ -1,0 +1,259 @@
+@font-face{
+font-family: Amatic;
+src: url('../fonts/amatic/Amatic-Bold.ttf') format('truetype');
+}
+
+@font-face{
+font-family: HVD;
+src: url('../fonts/FFF-Tusj/FFF_Tusj.ttf') format('truetype');
+}
+
+body {
+    position:relative;
+    background-color: yellowgreen;
+}
+.container-nopadding {
+    padding: 0px;
+}
+.heading {
+    border-bottom-color: white;
+    border-bottom: dashed;
+    border-bottom-width: 5px;
+    height:145px;
+    background-color:#F44336;color:#fff
+}
+#logo {
+    font-family: Amatic;
+    font-size: 60px;   
+}
+#small_logo {
+    font-family: Amatic;
+    font-size: 20px;
+}
+.navbar li a {
+    margin-left: 30px;
+}
+.navbar {
+    margin-bottom: 0px;
+    opacity: 0.8;
+    border-radius: 0px;
+    font-size: 30px !important;
+    font-family: Amatic;
+   
+  }
+.navbar-brand {
+    font-size:30px !important;
+}
+
+#comms {
+    position: absolute;
+    font-family: amatic;
+	font-size: 24px;
+	width: 150px;
+	height:125px;
+	text-align: center;
+	line-height: 110px;
+	background-image: url(../img/dymek2.png);
+	background-size: 150px 125px;
+    background-repeat: no-repeat;
+	top: 200px;
+    visibility:hidden;
+}
+
+#roadside {
+    background-color: #a7d900;
+    height: 150px;
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+    bottom: 0px;
+}
+
+.road {
+    background-color: #4d4d4d;
+    height: 110px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+    border-top: 5px dashed white !important;
+}
+#sky {
+    background-color: skyblue;
+    height: 424px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -10; 
+    overflow: hidden;
+    
+}
+#tree1 {
+    position:absolute;
+    height: 300px;
+    bottom: 10px;
+    left: -250px;
+    z-index: -3;
+}
+#tree2 {
+    position:absolute;
+    height: 250px;
+    bottom: 50px;
+    left: 50px;
+    z-index: -4;
+}
+
+#cloud1 {
+    position:absolute;
+    height: 110px;
+    left: -200px;
+    top: 10px;
+    z-index: -8;
+}
+#cloud2 {
+    position:absolute;
+    height: 150px;
+    left: -220px;
+    top: 15px;
+    z-index: -7;
+}
+#cloud3 {
+    position:absolute;
+    height: 130px;
+    left: -200px;
+    top: 20px;
+    z-index: -6;
+}
+
+#what {
+    background-color: #4d4d4d;
+    min-height: 700px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: dashed;
+    border-bottom-color: white;
+    border-bottom-width: 25px !important;
+}
+.question {
+    font-family: amatic;
+    font-size: 40px;
+    background-color:#F44336;
+    color:#fff;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin-right: auto; margin-left: auto;
+    border-radius: 10px;
+    border-color: black;
+    border: dashed;
+    border-width: thick;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.content {
+    position: relative;
+    padding-bottom:50px;
+}
+.content > h1 {
+    font-family: HVD;
+	font-size: 210px;
+	color: white;
+    text-align: center;
+}
+.what_desc {
+    font-family:amatic; font-size:70px; color:white; text-align:center; padding-top:60px;
+}
+#what > .h1 {
+	font-family: HVD;
+	font-size: 60px;
+	color: black;
+    
+}
+#who {
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: yellowgreen;
+    height: 100%;
+    font-family: amatic;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+.layerCrossing {
+    
+}
+.person {
+    border: 5px solid ;
+    border-radius: 10px;
+    opacity: 0.9;
+    height: 100%;
+    margin:15px;
+    margin-bottom: 90px;
+    background-color: bisque;
+    box-shadow: 10px 10px 5px black;
+    transition: 1s ease;
+    padding: 10px;
+    font-family: amatic;
+}
+
+.person:hover {
+    box-shadow: 20px 15px 10px black;
+    transform: scale(1.03);
+}
+
+.person > p:nth-of-type(1) {
+    font-size: 30px;
+    margin: 0px;
+}
+.person > p:nth-of-type(2) {
+    font-size: 45px;
+    margin:0px;
+}
+.person > div > p {
+    font-size: 30px;
+    margin:10px;
+}
+.person img {
+    margin-top:10px;
+    margin-bottom: 15px;
+    border: 5px solid #4d4d4d ;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+.people {
+    padding: 40px;
+}
+footer {
+	background-color: black
+}
+
+#map {
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    border: 5px solid #4d4d4d ;
+    border-radius: 10px
+}
+#where {
+    font-family: amatic;
+    font-size: 40px;
+    text-align: center;
+}
+#contact {
+    font-family: amatic;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+footer {
+    border-bottom: 10px solid black;
+    opacity: 0.8;
+    padding: 10px;
+}
